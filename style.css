@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    padding: 1em 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sarab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hearder img {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em 10em;
+}
+
+.sarab h2 {
+    padding-right: 3em;
+}
+
+.sarab p {
+    font-size: 0.8em;
+    color: #bf8a8a;
+    padding-left: 1.5em;
+}
+
+#a,
+#b {
+    font-size: 1.2em;
+    color: #ab0606;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0.5em 0.5em;
+    gap: 2em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    padding-top: 1.5em;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#navigation_bar {
+    background-color: #a92020;
+    height: 0.2em;
+    width: 1.5em;
+    margin-top: 1em;
+    border-radius: 0.2em;
+    /* bottom: 0;
+    position: fixed;
+    top: 5.5rem;
+    left: 21.5rem; */
+}
+
+#order {
+    margin: 0.5em 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+
+}
+
+#order button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1.2em;
+    background-color: #9e1010;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.8em;
+    gap: 0.5em;
+
+}
+
+.hero {
+    background-color: #e1e1e1;
+    height: 100%;
+    width: 100%;
+}
+
+#fast_food,
+#yr,
+#plus_icon {
+    color: #d91616;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6em 8em;
+    gap: 2em;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+}
+
+.hero-text-h1 p {
+    width: 70%;
+
+}
+
+.hero-text p {
+    font-size: 1em;
+    color: #333333;
+
+}
+
+#vegan-food {
+    width: 30px;
+    height: 30px;
+}
+
+#salivate,
+#star,
+#play_button,
+#search,
+#utensils_1 {
+    width: 18px;
+    height: 18px;
+}
+
+.rate_context {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #fff;
+    padding: 0.5em 0.5em;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 300px;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 2em;
+    background-color: #9e1010;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.6em;
+    gap: 0.5em;
+    font-size: 0.8em;
+
+}
+
+#book_btn {
+    border: none;
+    border-radius: 20px;
+    padding: 1em 1.2em;
+}
+
+#watch_btn {
+    background-color: transparent;
+    /* background-color: whitesmoke; */
+    color: #121111;
+    font-weight: 600;
+}
+
+.items_count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    border-radius: 50%;
+    width: 450px;
+    height: 30px;
+    font-size: 0.8em;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.item p {
+    color: #bf8a8a;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0.5em 2em;
+}
+
+#burger_image {
+    width: 50%;
+    height: 42%;
+    border-radius: 100%;
+}
+
+.pop-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0.5em;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #fff;
+    padding: 1em 1em;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 20px;
+    height: 20px;
+}
+
+.card1 {
+    top: 1.5em;
+    left: 1.5em;
+    transform: translate(-45%, -70%);
+    z-index: 10;
+}
+
+.card2 {
+    top: 1.5em;
+    left: 1.5em;
+    transform: translate(130%, -60%);
+    z-index: 20;
+}
+
+.card3 {
+    top: 1.5em;
+    left: 1.5em;
+    transform: translate(40%, 90%);
+    z-index: 30;
+}
+
+.contents p {
+    color: #bf8a8a;
+    font-size: 0.8em;
+    width: 80px;
+    margin: 0.4em 0;
+}
